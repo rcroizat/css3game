@@ -1,0 +1,37 @@
+
+#corps
+{
+	background-image: url(images/fond.png);
+	overflow: hidden;
+	position: absolute;
+	width: 650;
+	height: 600px;
+	animation: animatedBackground 7s linear infinite;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -1350 0; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -1350 0; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -1350 0; }
+}
+
+ #perso
+ {
+	
+	background-image: url(images/mario1.png);
+	background-position: 80% top;
+	width: 37px;
+	height: 58px;
+	position : absolute;
+	top: 0px;
+	left: 0px;
+
+}
+
