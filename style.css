@@ -4,22 +4,22 @@
 	background-image: url(images/fond.png);
 	overflow: hidden;
 	position: absolute;
-	width: 650;
+	width: 600px;
 	height: 600px;
 	animation: animatedBackground 7s linear infinite;
 }
 
 @keyframes animatedBackground {
     0% { background-position: 0 0; }
-    100% { background-position: -1350 0; }
+    100% { background-position: 0 1350; }
 }
 @-moz-keyframes animatedBackground {
     0% { background-position: 0 0; }
-    100% { background-position: -1350 0; }
+    100% { background-position: 0 1350; }
 }
 @-webkit-keyframes animatedBackground {
     0% { background-position: 0 0; }
-    100% { background-position: -1350 0; }
+    100% { background-position: 0 1350; }
 }
 
  #perso
