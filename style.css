@@ -36,3 +36,32 @@
 
 }
 
+
+ #boss
+ {
+    background-image: url(images/boss.gif); 
+    width: 600px;
+    height: 190px;
+    background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+
+ #boss:hover
+ {
+	animation: blink 0.00001s infinite;
+}
+
+
+@keyframes blink {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
