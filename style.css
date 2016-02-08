@@ -7,7 +7,7 @@
 	width: 600px;
 	height: 600px;
 	animation: animatedBackground 7s linear infinite;
-    cursor: url("images/plane.gif") 42 38, auto; 
+    cursor: url("images/plane.png") 42 38, auto; 
 }
 
 @keyframes animatedBackground {
@@ -23,23 +23,10 @@
     100% { background-position: 0 1350; }
 }
 
- #perso
- {
-	
-	background-image: url(images/mario1.png);
-	background-position: 80% top;
-	width: 37px;
-	height: 58px;
-	position : absolute;
-	top: 0px;
-	left: 0px;
-
-}
-
 .enemy
  {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     display : none;
     background-image:url(images/enemy.png);
@@ -55,7 +42,7 @@
 }
 
 
-
+/* if loose*/
 .enemy:hover .loose
  {
 
@@ -117,19 +104,67 @@
 
 @keyframes fire4 {
     0% { top: -50; left: 200; }
-    100% { top: 160;  left: 400;}
-    100% { top: 320;  left: 200;}
+    33% { top: 160;  left: 400;}
+    66% { top: 320;  left: 200;}
     100% { top: 650;  left: 600;}
 }
 @-moz-keyframes fire4 {
      0% { top: -50; left: 200; }
-    100% { top: 160;  left: 400;}
-    100% { top: 320;  left: 200;}
+    33% { top: 160;  left: 400;}
+    66% { top: 320;  left: 200;}
     100% { top: 650;  left: 600;}
 }
 @-webkit-keyframes fire4 {
     0% { top: -50; left: 200; }
-    100% { top: 160;  left: 400;}
-    100% { top: 320;  left: 200;}
+    33% { top: 160;  left: 400;}
+    66% { top: 320;  left: 200;}
     100% { top: 650;  left: 600;}
+}
+
+
+@keyframes fire5 {
+    0% { top: -50; left: 500; }
+    100% { top: 650;  left: 100;}
+}
+@-moz-keyframes fire5 {
+    0% { top: -50; left: 500; }
+    100% { top: 650;  left: 100;}
+}
+@-webkit-keyframes fire5 {
+    0% { top: -50; left: 500; }
+    100% { top: 650;  left: 100;}
+}
+
+
+@keyframes fire6 {
+    0% { top: -50; left: 450; }
+    100% { top: 650;  left: 200;}
+}
+@-moz-keyframes fire6 {
+    0% { top: -50; left: 450; }
+    100% { top: 650;  left: 200;}
+}
+@-webkit-keyframes fire6 {
+    0% { top: -50; left: 450; }
+    100% { top: 650;  left: 200;}
+}
+
+
+@keyframes fire7 {
+    0% { top: -50; left: 300; }
+    33% { top: 160;  left: 500;}
+    66% { top: 320;  left: 300;}
+    100% { top: 650;  left: 100;}
+}
+@-moz-keyframes fire7 {
+    0% { top: -50; left: 300; }
+    33% { top: 160;  left: 500;}
+    66% { top: 320;  left: 300;}
+    100% { top: 650;  left: 100;}
+}
+@-webkit-keyframes fire7 {
+    0% { top: -50; left: 300; }
+    33% { top: 160;  left: 500;}
+    66% { top: 320;  left: 300;}
+    100% { top: 650;  left: 100;}
 }
