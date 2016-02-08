@@ -36,36 +36,6 @@
 
 }
 
-
- #boss
- {
-    background-image: url(images/boss.gif); 
-    width: 600px;
-    height: 190px;
-    background-repeat: no-repeat;
-	margin: 0 auto;
-}
-
-
- #boss:hover
- {
-	animation: blink 0.00001s infinite;
-}
-
-
-@keyframes blink {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-@-moz-keyframes blink {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-@-webkit-keyframes blink {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 .enemy
  {
     width: 50px;
@@ -73,6 +43,7 @@
     position: absolute;
     display : none;
     background-image:url(images/enemy.png);
+    z-index:1;
 }
 
 
@@ -95,49 +66,70 @@
     left:0;
     position: fixed;
     background-color : white;
+    cursor:auto;
+    z-index:10;
 }
 
 
-
-/* Toutes les animations */
+/*  Animations */
 
 
 @keyframes fire1 {
-    0% { top: 0; left: 300; }
+    0% { top: -50; left: 300; }
     100% { top: 650;  left: 300;}
 }
 @-moz-keyframes fire {
-    0% { top: 0;  left: 300;}
+    0% { top: -50;  left: 300;}
     100% { top: 650;  left: 300;}
 }
 @-webkit-keyframes fire {
-    0% { top: 0;  left: 300;}
+    0% { top: -50;  left: 300;}
     100% { top: 650;  left: 300;}
 }
 
 
 @keyframes fire2 {
-    0% { top: 0; left: 0; }
+    0% { top: -50; left: 0; }
     100% { top: 650;  left: 300;}
 }
 @-moz-keyframes fire2 {
-    0% { top: 0;  left: 0;}
+    0% { top: -50;  left: 0;}
     100% { top: 650;  left: 300;}
 }
 @-webkit-keyframes fire2 {
-    0% { top: 0;  left: 0;}
+    0% { top: -50;  left: 0;}
     100% { top: 650;  left: 300;}
 }
 
 @keyframes fire3 {
-    0% { top: 0; left: 200; }
+    0% { top: -50; left: 200; }
     100% { top: 650;  left: 600;}
 }
 @-moz-keyframes fire3 {
-    0% { top: 0;  left: 200;}
+    0% { top: -50;  left: 200;}
     100% { top: 650;  left: 600;}
 }
 @-webkit-keyframes fire3 {
-    0% { top: 0;  left: 200;}
+    0% { top: -50;  left: 200;}
+    100% { top: 650;  left: 600;}
+}
+
+
+@keyframes fire4 {
+    0% { top: -50; left: 200; }
+    100% { top: 160;  left: 400;}
+    100% { top: 320;  left: 200;}
+    100% { top: 650;  left: 600;}
+}
+@-moz-keyframes fire4 {
+     0% { top: -50; left: 200; }
+    100% { top: 160;  left: 400;}
+    100% { top: 320;  left: 200;}
+    100% { top: 650;  left: 600;}
+}
+@-webkit-keyframes fire4 {
+    0% { top: -50; left: 200; }
+    100% { top: 160;  left: 400;}
+    100% { top: 320;  left: 200;}
     100% { top: 650;  left: 600;}
 }
