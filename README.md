@@ -1,3 +1,3 @@
 # css3game
 
-Romain Croizat, Laura Labbe, Sandy Chkr
+Romain Croizat, Laura Labbe, Sandy Chakir
